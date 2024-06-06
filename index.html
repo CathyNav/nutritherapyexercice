@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophro-nutri</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Gluten:wght@100..900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header role="banner">
+        <div>
+            <a href="#" aria-label="Retour à la page d'accueil de Sophro-nutri">
+                <img src="/img/Logo clair.png" alt="Le logo de Sophro-nutri">
+            </a>
+        </div>
+        <nav class="main-menu" role="navigation" aria-label="Menu principal">
+            <ul>
+                <li><a href="#">Votre praticienne</a></li>
+                <li><a href="#">Les prestations</a></li>
+                <li><a href="#">éservation</a>R</li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main role="main">
+        <section role="region" aria-labelledby="hero-title" class="hero">
+            <div class="container">
+                    <a class="cta" href="#">Réserver</a>
+                
+                    <h1 id="hero-title">Parce que le bien-être n’est pas une option</h1>
+
+                    <p>Réservez votre séance et travaillons ensemble pour vous</p>
+            </div>
+        </section>
+        <section role="region" aria-labelledby="praticienne" class="intro">
+            <div class="container">
+                <div>
+                    <img src="/img/woman-657753_640.jpg" alt="Photo de Sophie D. Sophrologue et nutrithérapeute">
+                </div>
+                <div>
+                    <h2 id="praticienne"> Sophie D.</h2>
+                    <p>Sophrologue et nutrithérapeuthe</p>
+                    <p>Sophie est une sophrologue passionnée qui accompagne les individus sur leur chemin vers un bien-être physique et mental
+                    optimal. Dotée d'une expertise approfondie et d'une approche bienveillante, elle guide ses clients dans la découverte
+                    des bienfaits transformateurs de la sophrologie et de la nutrithérapie.</p>
+                </div>
+            </div>
+        </section>
+        <section role="region" aria-labelledby="prestations" class="presta" >
+            <div class="container">
+                <h2 id="prestations">De quoi s’agit-il ?</h2>
+                <div class="container">
+                    <div>
+                    <img src="/img/Group.png" alt="icone yoga" aria-hidden="true">
+                    </div>
+                    <div>
+                    <p>La sophrologie est une méthode unique qui combine des techniques de respiration, de relaxation musculaire et d'imagerie
+                    guidée pour promouvoir le bien-être général.</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div>
+                        <img src="/img/Group 10.png" alt="icone nutrition" aria-hidden="true">
+                    </div>
+                    <div>
+                        <p>La nutrithérapie est une approche de santé qui vise à utiliser l'alimentation comme un outil thérapeutique pour
+                        prévenir, soulager ou guérir certains troubles.</p>
+                    </div>
+                </div>
+                <p>L’association des 2 pratiques permet d’obtenir comme bénéfices :</p>
+                <p>Réduction du stress et de l'anxiété <br>
+                Gestion de la douleur <br>
+                Amélioration du sommeil <br>
+                Régulation émotionnelle</p>
+                <p>Et bien d’autres tout aussi positifs</p>
+            </div>
+        </section>
+        <section role="region" aria-labelledby="témoignage" class="temoignage">
+            <h2 id="témoignage">Votre avis compte ...</h2>
+            <div class="container">
+                <div><img src="/img/Back.png" alt="flèche à gauche" aria-label="Lire le témoignage précédent"></div>
+                <div><img src="/img/cloud-304979_640 (1).png" alt="Nuage de pensée" aria-hidden="true"></div>
+                <div><img src="/img/Forward.png" alt="Flèche à droite" aria-label="Lire le témoignage suivant"></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus neque consequuntur esse beatae eum. Deleniti perferendis, dicta iure id praesentium blanditiis consequuntur nam, distinctio, quod a doloremque aspernatur suscipit quibusdam.</p>
+        </section>
+        <section role="region" aria-labelledby="réservation">
+        <div class="container">
+            <h2 id="réservation"> Votre réservation</h2>
+            <form aria-label="Formulaire de réservation de rendez-vous">
+                <div>
+                    <div>
+                        <label class="visually-hidden" for="name"> NOM Prénom</label>
+                        <textarea name="name" id="name" cols="33" rows="1" required aria-required="true">NOM Prénom</textarea>
+                    </div>
+                    <div>
+                        <label class="visually-hidden" for="date">Date du rendez-vous</label>
+                        <input type="date" name="date" id="date" value="2024-06-05" min="2024-06-05" max="2025-01-30" required aria-required="true">
+                    </div>
+                    <div>
+                        <label class="visually-hidden" for="heure">Heure de réservation</label>
+                        <input type="time"name="heure" id="heure" min="9:30" max="17:00" required aria-required="true">
+                    </div>
+                    <div>
+                        <label class="visually-hidden" for="phone number">Numéro de téléphone</label>
+                        <input type="tel" name="Numéro de téléphone" id="téléphone" required aria-required="true">
+                    </div>
+                    <div>
+                        <label class="visually-hidden" for="modality">Modalité de rendez-vous</label>
+                        <select name="modality" id="modality-select" required aria-required="true">
+                            <option value="">Choissez la modalité de rendez-vous</option>
+                            <option value="A domicile">A domicile</option>
+                            <option value="Au cabinet">Au cabinet</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="visually-hidden" for="why"> Motif de votre rendez-vous</label>
+                        <select name="reason" id="reason" required aria-required="true">
+                        <option value="">Choissez le motif de la consultation</option>
+                        <option value="Première consultation sophrologie">Première consultation sophrologie</option>
+                        <Option value="Première consultation nutrithéreapie">Première consultation nutrithéreapie</Option>
+                        <Option value="Première consultation sophrologie et nutrithérapie">Première consultation sophrologie et nutrithérapie</Option>
+                        <Option value="Suivi consultation sophrologie">Suivi consultation sophrologie</Option>
+                        <Option value="Suivi consultation nutrithérapie">Suivi consultation nutrithérapie</Option>
+                        <Option value="Suivi consultation sophrologie et nutrithérapie">Suivi consultation sophrologie et nutrithérapie</Option>
+                        </select>
+                    </div>
+                </div>
+                <input type="submit" class="cta" value="Je prends rendez-vous">
+            </form>
+        </div>
+        </section>
+    </main>
+    <footer role="contentinfo">
+        <div class="container">
+        <div>
+            <div>
+                <img src="/img/Logo foncé.png" alt="Logo de Sophro-nutri" aria-hidden="true">
+            </div>
+            <div class="footer-contact">
+                <h3 id="Contact">Contact</h3>
+                <div>
+                    <a href="tel:0298958162">Téléphone : 02 98 95 81 62</a>
+                    <a href="mailto:contact@sophro-nutri.fr">contact@sophro-nutri.fr</a>
+                </div>
+                <div>
+                    <p>9 Quai du Port au Vin</p>
+                    <p>29000 Quimper</p>
+                </div>
+            </div>
+            <div class="Réseau sociaux">
+                <ul>
+                    <li>
+                        <a href="#" aria-label="Accès à la page facebook de sophro-nutri">
+                        <img src="img/icons8-facebook-nouveau-50.png" alt="logo de facebook" aria-hidden="true">
+                        </a>  
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Accès à la page instagram de sophro-nutri">
+                        <img src="img/icons8-instagram-50.png" alt="Logo de instagram" aria-hidden="true">
+                    </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Accès au contact Whatsapp de sophro-nutri">
+                        <img src="img/icons8-whatsapp-50.png" alt="Logo de Whatsapp" aria-hidden="true">
+                    </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="Mentions">
+            <p>Propriété de Sophro-nutri / <a href="#">Mentions légales</a></p>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
