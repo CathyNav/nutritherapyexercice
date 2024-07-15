@@ -1,0 +1,66 @@
+/* 
+--:root
+--general
+--header
+--main
+---hero
+---intro
+---presta
+---temoignage
+---resa
+--footer
+ */
+
+ :root{
+    --first: #097771 ;
+    --second: #FEFFE9;
+    --title-font : "Gluten", sans-serif;
+    --body-font : "balsamiq+Sans", sans-serif;
+    --max-page-w:1250px;
+    --page-inline-padding:32px;
+    }
+
+/* GENERAL */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    /* added line */
+    border: 0;
+}
+
+/*   Header   */
+.bandeau{
+    background-color: var(--first);
+}
+.logo{
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+padding-top: 25px;
+padding-bottom: 25px
+}
+
+/* nav */
+body{
+    font-family: var(--body-font);
+}
+
+.main-menu{
+    display: flex;
+    flex-direction: row;
+}
+.praticienne{
+    border-radius: 100%;
+    border-color: #097771;
+    color:#FEFFE9;
+    border-style: dashed;
+    object-fit: contain;
+    text-decoration: none;
+    width: fit-content;
+}
